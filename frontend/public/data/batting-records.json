@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Orange Cap",
+    "player": "Virat Kohli",
+    "value": "9336",
+    "label": "RUNS",
+    "team": "RCB",
+    "image": "/players/virat.png",
+    "logo": "/logos/rcb.png"
+  },
+  {
+    "title": "Most Fours",
+    "player": "Virat Kohli",
+    "value": "844",
+    "label": "FOURS",
+    "team": "RCB",
+    "image": "/players/virat.png",
+    "logo": "/logos/rcb.png"
+  },
+  {
+    "title": "Most Sixes",
+    "player": "Chris Gayle",
+    "value": "357",
+    "label": "SIXES",
+    "team": "PBKS",
+    "image": "/players/gayle.png",
+    "logo": "/logos/pbks.png"
+  },
+  {
+    "title": "Highest Score",
+    "player": "Chris Gayle",
+    "value": "175",
+    "label": "SCORE",
+    "team": "PBKS",
+    "image": "/players/gayle.png",
+    "logo": "/logos/pbks.png"
+  },
+  {
+    "title": "Best Strike Rate",
+    "player": "Vaibhav Suryavanshi",
+    "value": "228.95",
+    "label": "SR",
+    "team": "RR",
+    "image": "/players/vaibhav.png",
+    "logo": "/logos/rr.png"
+  },
+  {
+  "title": "Fastest Fifty",
+  "player": "Yashasvi Jaiswal",
+  "value": "13",
+  "label": "BALLS",
+  "team": "RR",
+  "image": "/players/yashasvi.png",
+  "logo": "/logos/rr.png"
+},
+{
+  "title": "Fastest Century",
+  "player": "Chris Gayle",
+  "value": "30",
+  "label": "BALLS",
+  "team": "PBKS",
+  "image": "/players/gayle.png",
+  "logo": "/logos/pbks.png"
+}
+]

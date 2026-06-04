@@ -1,0 +1,63 @@
+{
+  "players": [
+    {
+      "name": "Virat Kohli",
+      "runs": 741,
+      "strike_rate": 154,
+      "average": 61.7,
+      "matches": 15,
+      "fours": 68,
+      "sixes": 38,
+      "team": "RCB",
+      "role": "Batsman",
+      "image": "/images/virat.jpg"
+    },
+
+    {
+      "name": "Rohit Sharma",
+      "runs": 620,
+      "strike_rate": 145,
+      "average": 48.2,
+      "matches": 14,
+      "fours": 52,
+      "sixes": 29,
+      "team": "MI",
+      "role": "Batsman",
+      "image": "/images/rohit.jpg"
+    },
+
+    {
+      "name": "MS Dhoni",
+      "runs": 420,
+      "strike_rate": 138,
+      "average": 39.5,
+      "matches": 14,
+      "fours": 28,
+      "sixes": 24,
+      "team": "CSK",
+      "role": "WK/Batsman",
+      "image": "/images/dhoni.jpg"
+    }
+  ],
+
+  "teams": [
+    {
+      "team": "CSK",
+      "wins": 8,
+      "losses": 4,
+      "points": 16
+    },
+    {
+      "team": "MI",
+      "wins": 6,
+      "losses": 6,
+      "points": 12
+    },
+    {
+      "team": "RCB",
+      "wins": 1,
+      "losses": 11,
+      "points": 2
+    }
+  ]
+}

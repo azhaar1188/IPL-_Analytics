@@ -1,0 +1,83 @@
+[
+  {
+    "title": "Purple Cap",
+    "player": "Yuzvendra Chahal",
+    "value": "221",
+    "label": "WICKETS",
+    "team": "PBKS",
+    "image": "/players/chahal.png",
+    "logo": "/logos/pbks.png"
+  },
+  {
+    "title": "Best Bowling Figures",
+    "player": "Alzarri Joseph",
+    "value": "6/12",
+    "label": "BBI",
+    "team": "MI",
+    "image": "/players/alzarri.png",
+    "logo": "/logos/mi.png"
+  },
+  {
+    "title": "Best Economy",
+    "player": "Rashid Khan",
+    "value": "6.82",
+    "label": "ECONOMY",
+    "team": "GT",
+    "image": "/players/rashid.png",
+    "logo": "/logos/gt.png"
+  },
+  {
+    "title": "Most 4-Wicket Hauls",
+    "player": "Sunil Narine",
+    "value": "8",
+    "label": "4W",
+    "team": "KKR",
+    "image": "/players/narine.png",
+    "logo": "/logos/kkr.png"
+  },
+  {
+    "title": "Most 5-Wicket Hauls",
+    "player": "James Faulkner",
+    "value": "2",
+    "label": "5W",
+    "team": "RR",
+    "image": "/players/faulkner.png",
+    "logo": "/logos/rr.png"
+  },
+  {
+  "title": "Most Dot Balls",
+  "player": "Bhuvneshwar Kumar",
+  "value": "1750",
+  "label": "DOTS",
+  "team": "RCB",
+  "image": "/players/bhuvi.png",
+  "logo": "/logos/rcb.png"
+},
+{
+  "title": "Most Maidens",
+  "player": "Praveen Kumar",
+  "value": "14",
+  "label": "MAIDENS",
+  "team": "RCB",
+  "image": "/players/praveen.png",
+  "logo": "/logos/rcb.png"
+},
+{
+  "title": "Best Bowling Average",
+  "player": "Lasith Malinga",
+  "value": "19.79",
+  "label": "AVG",
+  "team": "MI",
+  "image": "/players/malinga.png",
+  "logo": "/logos/mi.png"
+},
+{
+  "title": "Most Hat-Tricks",
+  "player": "Amit Mishra",
+  "value": "3",
+  "label": "HAT-TRICKS",
+  "team": "LSG",
+  "image": "/players/mishra.png",
+  "logo": "/logos/lsg.png"
+}
+]

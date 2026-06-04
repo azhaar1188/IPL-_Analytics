@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Most MVP Awards",
+    "player": "Andre Russell",
+    "value": "3",
+    "label": "MVPs",
+    "team": "KKR",
+    "image": "/players/russell.png",
+    "logo": "/logos/kkr.png"
+  },
+  {
+    "title": "Most Orange Caps",
+    "player": "David Warner",
+    "value": "3",
+    "label": "CAPS",
+    "team": "SRH",
+    "image": "/players/warner.png",
+    "logo": "/logos/srh.png"
+  },
+  {
+    "title": "Most Purple Caps",
+    "player": "Bhuvneshwar Kumar",
+    "value": "2",
+    "label": "CAPS",
+    "team": "SRH",
+    "image": "/players/bhuvi.png",
+    "logo": "/logos/srh.png"
+  },
+  {
+    "title": "Most IPL Titles",
+    "player": "Rohit Sharma",
+    "value": "6",
+    "label": "TITLES",
+    "team": "MI",
+    "image": "/players/rohit.png",
+    "logo": "/logos/mi.png"
+  },
+  {
+    "title": "Most Finals",
+    "player": "MS Dhoni",
+    "value": "10",
+    "label": "FINALS",
+    "team": "CSK",
+    "image": "/players/dhoni.png",
+    "logo": "/logos/csk.png"
+  }
+]

@@ -266,7 +266,7 @@ if (error) {
 </div>
 
       <p className="text-zinc-300 mt-2">
-        IPL 2025 Finalist
+        IPL 2025 Finalists
       </p>
     </div>
 

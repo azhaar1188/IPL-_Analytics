@@ -114,6 +114,11 @@ export default function Navbar() {
         <Link href="/compare" className={pathname === "/compare" ? "text-blue-400 font-bold" : ""}>
           PLAYER COMPARISON
         </Link>
+
+        <Link href="/chatbot">
+  AI CHATBOT
+</Link>
+
       </div>
 
       {menuOpen && (
@@ -138,6 +143,8 @@ export default function Navbar() {
     <Link href="/compare" className="p-4">
       PLAYER COMPARISON
     </Link>
+
+ 
 
   </div>
 )}

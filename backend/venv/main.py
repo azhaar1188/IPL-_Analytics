@@ -62,10 +62,9 @@ def get_players():
 @app.get("/matches")
 def get_matches():
 
-    url = "https://api.cricapi.com/v1/currentMatches?apikey=c5b0bc78-1b32-4daa-928a-b56d511acee8"
-
-    response = requests.get(url)
-
+    response = requests.get(f"{BASE_URL}/currentMatches",
+    params={"apikey": API_KEY})
+    
     data = response.json()
 
     # DEBUG

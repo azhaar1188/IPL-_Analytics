@@ -81,7 +81,12 @@ export default function Navbar() {
       PLAYER COMPARISON
     </Link>
 
- 
+ <Link
+  href="/chatbot"
+  className="block px-4 py-3 text-white hover:text-blue-500"
+>
+  AI CHATBOT
+</Link>
 
   </div>
 )}

@@ -15,7 +15,7 @@ export default function MatchesPage() {
 
   setLoading(true);
 
-  fetch(`http://127.0.0.1:8000/ipl/${filter}`)
+  fetch(`https://ipl-analytics-aezg.onrender.com/ipl/${filter}`)
     .then((res) => res.json())
     .then((data) => {
 

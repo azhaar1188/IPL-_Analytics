@@ -17,8 +17,8 @@ export default function MatchDetailsPage() {
   async function fetchMatch() {
 
     const response = await fetch(
-      `https://ipl-analytics-aezg.onrender.com/iplmatch/${id}`
-    );
+  `https://ipl-analytics-aezg.onrender.com/ipl/match/${id}`
+);
 
     const data = await response.json();
 

@@ -7,9 +7,22 @@ import Link from "next/link";
 export default function MatchesPage() {
 
   const [matches, setMatches] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [filter, setFilter] = useState("completed");
-  const [search, setSearch] = useState("");
+const [loading, setLoading] = useState(true);
+const [filter, setFilter] = useState("completed");
+const [search, setSearch] = useState("");
+
+const teamLogos: Record<string, string> = {
+  "Royal Challengers Bengaluru": "/logos/rcb.png",
+  "Punjab Kings": "/logos/pbks.png",
+  "Mumbai Indians": "/logos/mi.png",
+  "Chennai Super Kings": "/logos/csk.png",
+  "Delhi Capitals": "/logos/dc.png",
+  "Kolkata Knight Riders": "/logos/kkr.png",
+  "Rajasthan Royals": "/logos/rr.png",
+  "Sunrisers Hyderabad": "/logos/srh.png",
+  "Lucknow Super Giants": "/logos/lsg.png",
+  "Gujarat Titans": "/logos/gt.png",
+};
 
   useEffect(() => {
 
@@ -125,7 +138,20 @@ const filteredMatches = sortedMatches.filter((match: any) =>
 
 </div>
 
-        <div className="grid md:grid-cols-2 gap-6">
+        {filteredMatches.length === 0 && (
+  <div className="text-center py-20">
+    <h2 className="text-3xl font-bold text-zinc-300 mb-4">
+      No Matches Available
+    </h2>
+
+    <p className="text-zinc-500">
+      IPL 2025 has concluded. There are currently no live or upcoming matches.
+    </p>
+  </div>
+)}
+
+{filteredMatches.length > 0 && (
+  <div className="grid md:grid-cols-2 gap-6">
 
           {filteredMatches.map((match: any, index) => (
 
@@ -172,16 +198,25 @@ const filteredMatches = sortedMatches.filter((match: any) =>
         {match.teams?.map((team: string, i: number) => (
 
           <div
-            key={i}
-            className="
-              px-4
-              py-2
-              bg-zinc-700
-              rounded-xl
-            "
-          >
-            {team}
-          </div>
+  key={i}
+  className="
+    px-4
+    py-2
+    bg-zinc-700
+    rounded-xl
+    flex
+    items-center
+    gap-2
+  "
+>
+  <img
+    src={teamLogos[team]}
+    alt={team}
+    className="w-6 h-6 object-contain"
+  />
+
+  <span>{team}</span>
+</div>
 
         ))}
 
@@ -195,7 +230,17 @@ const filteredMatches = sortedMatches.filter((match: any) =>
 
         </div>
 
+  )}
+
       </div>
+
+      <footer className="border-t border-zinc-800 mt-20 py-8 text-center text-zinc-400">
+  <p>IPL Analytics © 2025</p>
+
+  <p className="mt-2">
+    Built by Mohammed Azhaar
+  </p>
+</footer>
 
     </main>
   );

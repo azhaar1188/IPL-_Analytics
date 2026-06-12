@@ -592,6 +592,15 @@ const indianPlayers =
 
 )}
     </div>
+
+    <footer className="border-t border-zinc-800 mt-20 py-8 text-center text-zinc-400">
+  <p>IPL Analytics © 2025</p>
+
+  <p className="mt-2">
+    Built by Mohammed Azhaar
+  </p>
+</footer>
+
     </main>
   );
 }

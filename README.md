@@ -12,7 +12,13 @@ An interactive IPL Analytics platform built using **Next.js, TypeScript, Tailwin
 * Batting Statistics
 * Bowling Statistics
 * Team Performance Insights
-* Search and filtering options
+
+### 👥 Teams & Squads
+
+* Complete IPL 2025 Squads
+* Team Logos
+* Player Information
+* Team-wise Squad View
 
 ### 🏆 Records & Awards
 
@@ -22,13 +28,6 @@ An interactive IPL Analytics platform built using **Next.js, TypeScript, Tailwin
 * Most MVP Awards
 * Historic IPL Records
 * Award Winners and Achievements
-
-### 👥 Teams & Squads
-
-* Complete IPL 2025 Squads
-* Team Logos
-* Player Information
-* Team-wise Squad View
 
 ### 🏟️ Matches
 

@@ -156,7 +156,7 @@ http://127.0.0.1:8000
 
 ### Frontend
 
-Add your Vercel URL here
+https://ipl-analytics-lovat.vercel.app/
 
 ### Backend
 
@@ -168,11 +168,19 @@ https://ipl-analytics-aezg.onrender.com
 
 ### Home Page
 
-![Home Page](Screenshots/Home page.jpeg)
+![Home Page](Screenshots/Home.jpeg)
 
 ### Squads Page
 
 ![Squads Page](Screenshots/Squads.jpeg)
+
+### Stats
+
+![Stats](Screenshots/Stats.jpeg)
+
+### Records
+
+![Records](Screenshots/Records.jpeg)
 
 ### Matches Page
 
@@ -180,11 +188,7 @@ https://ipl-analytics-aezg.onrender.com
 
 ### Player Comparison
 
-![Player Comparison](Screenshots/Player comparison.jpeg)
-
-### IPL Chatbot
-
-(Add Screenshot)
+![Player Comparison](Screenshots/Comparison.jpeg)
 
 ---
 
